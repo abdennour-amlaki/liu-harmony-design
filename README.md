@@ -22,5 +22,6 @@ WhatsApp: +66 82 780 7095
 Email: khamjira441@gmail.com
 Location: Bangkok, Thailand
 
-## Important
-The enquiry form opens the visitor's email app with the enquiry addressed to `khamjira441@gmail.com`. It does not require a server/backend.
+## Backend
+The enquiry form sends submissions to `backend/server.js` at `/api/contacts`.
+Run the backend with `npm install` and `npm start` inside the `backend` folder. Set `PORT`, `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, and `DB_PORT` in production when using MySQL.

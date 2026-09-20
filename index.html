@@ -24,7 +24,7 @@
     "name":"Liu Harmony Design",
     "url":"https://liuharmonydesign.com/",
     "telephone":"+66827807095",
-    "areaServed":"Thailand",
+    "areaServed":["Bangkok","Phuket","London","Dubai","Paris","Shanghai","Beijing"],
     "description":"Interior design and decoration studio specializing in residential, hospitality and commercial spaces."
   }
   </script>
@@ -35,14 +35,33 @@
   <header class="site-header" id="siteHeader">
     <div class="container header-inner">
       <a href="#home" class="logo" aria-label="Liu Harmony Design home">
-        <span>LIU HARMONY</span><small>DESIGN STUDIO</small>
+        <span class="logo-crest" aria-hidden="true">
+          <span class="logo-arch"></span>
+          <span class="logo-arch logo-arch-inner"></span>
+          <span class="logo-leaf"></span>
+        </span>
+        <span class="logo-text">
+          <span class="logo-wordmark">Liu</span>
+          <small>INTERIORS</small>
+        </span>
       </a>
+      <div class="header-actions">
+        <div class="lang-switcher" role="group" aria-label="Language switcher">
+          <button class="lang-btn active" type="button" data-lang="en" aria-pressed="true">ENG</button>
+          <button class="lang-btn" type="button" data-lang="zh" aria-pressed="false">CHI</button>
+          <button class="lang-btn" type="button" data-lang="ar" aria-pressed="false">AR</button>
+          <button class="lang-btn" type="button" data-lang="th" aria-pressed="false">TH</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Enable dark mode" aria-pressed="false" title="Toggle dark mode">
+          <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+        </button>
+      </div>
       <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-controls="mainNav" aria-expanded="false">
         <span></span><span></span>
       </button>
       <nav class="main-nav" id="mainNav" aria-label="Main navigation">
-        <a href="#work">Work</a><a href="#services">Services</a><a href="#studio">Studio</a><a href="#process">Process</a>
-        <a href="#contact" class="nav-contact">Start a project</a>
+        <a href="#work" data-i18n="nav.work">Work</a><a href="#services" data-i18n="nav.services">Services</a><a href="#studio" data-i18n="nav.studio">Studio</a><a href="#process" data-i18n="nav.process">Process</a>
+        <a href="#contact" class="nav-contact" data-i18n="nav.contact">Start a project</a>
       </nav>
     </div>
   </header>
@@ -51,31 +70,31 @@
     <section class="hero" id="home">
       <div class="hero-image" aria-hidden="true"></div><div class="hero-overlay" aria-hidden="true"></div>
       <div class="container hero-content">
-        <p class="eyebrow">INTERIOR DESIGN · DECORATION · VISUALIZATION</p>
-        <h1>Spaces with<br><em>quiet character.</em></h1>
-        <p class="hero-text">Thoughtful interiors shaped around light, material, proportion and the way people actually live.</p>
+        <p class="eyebrow" data-i18n="hero.eyebrow">INTERIOR DESIGN · DECORATION · VISUALIZATION</p>
+        <h1><span data-i18n="hero.title">Spaces with</span><br><em data-i18n="hero.titleEm">quiet character.</em></h1>
+        <p class="hero-text" data-i18n="hero.text">Thoughtful interiors shaped around light, material, proportion and the way people actually live.</p>
         <div class="hero-actions">
-          <a href="#work" class="button button-light">Explore our work <span>↘</span></a>
-          <a href="#contact" class="hero-text-link">Start a conversation <span>↗</span></a>
+          <a href="#work" class="button button-light"><span data-i18n="hero.cta.primary">Explore our work</span> <span>↘</span></a>
+          <a href="#contact" class="hero-text-link"><span data-i18n="hero.cta.secondary">Start a conversation</span> <span>↗</span></a>
         </div>
 
         <div class="hero-stats" aria-label="Studio statistics">
-          <div><strong>8+</strong><span>Years of practice</span></div>
-          <div><strong>30+</strong><span>Projects delivered</span></div>
-          <div><strong>100%</strong><span>Tailored approach</span></div>
+          <div><strong>8+</strong><span data-i18n="hero.stats.years">Years of practice</span></div>
+          <div><strong>30+</strong><span data-i18n="hero.stats.projects">Projects delivered</span></div>
+          <div><strong>100%</strong><span data-i18n="hero.stats.approach">Tailored approach</span></div>
         </div>
       </div>
-      <div class="hero-note" aria-hidden="true"><span>01</span><i></i><span>Bangkok · Thailand</span></div>
-      <div class="hero-scroll" aria-hidden="true"><span>Scroll to explore</span><i></i></div>
+      <div class="hero-note" aria-hidden="true"><span>01</span><i></i><span data-i18n="hero.note">Bangkok · Phuket</span></div>
+      <div class="hero-scroll" aria-hidden="true"><span data-i18n="hero.scroll">Scroll to explore</span><i></i></div>
     </section>
 
     <section class="intro section reveal">
       <div class="container intro-grid">
-        <div><p class="eyebrow">OUR APPROACH</p></div>
+        <div><p class="eyebrow" data-i18n="intro.eyebrow">OUR APPROACH</p></div>
         <div class="intro-copy">
-          <h2>Design that feels <span>considered.</span></h2>
-          <p>Liu Harmony Design creates refined environments where architecture, furniture, lighting and materials work together naturally.</p>
-          <p>From private residences to hospitality and commercial spaces, every project is developed around its own identity rather than a predefined style.</p>
+          <h2><span data-i18n="intro.heading">Design that feels</span> <span data-i18n="intro.headingEm">considered.</span></h2>
+          <p data-i18n="intro.text1">Liu Harmony Design creates refined environments where architecture, furniture, lighting and materials work together naturally.</p>
+          <p data-i18n="intro.text2">From private residences to hospitality and commercial spaces, every project is developed around its own identity rather than a predefined style.</p>
         </div>
       </div>
     </section>
@@ -83,25 +102,25 @@
     <section class="values section reveal">
       <div class="container">
         <div class="section-heading">
-          <div><p class="eyebrow">WHY CLIENTS CHOOSE US</p><h2>Design with <span>clarity.</span></h2></div>
-          <p class="section-description">We create spaces that are visually refined, practical in daily use, and deeply aligned with the people who live or work in them.</p>
+          <div><p class="eyebrow" data-i18n="values.eyebrow">WHY CLIENTS CHOOSE US</p><h2><span data-i18n="values.heading">Design with</span> <span data-i18n="values.headingEm">clarity.</span></h2></div>
+          <p class="section-description" data-i18n="values.desc">We create spaces that are visually refined, practical in daily use, and deeply aligned with the people who live or work in them.</p>
         </div>
 
         <div class="value-grid">
           <article class="value-card">
             <span class="value-index">01</span>
-            <h3>Tailored vision</h3>
-            <p>Every concept is built around your goals, your routine, and the character of the space itself.</p>
+            <h3 data-i18n="value1.title">Tailored vision</h3>
+            <p data-i18n="value1.text">Every concept is built around your goals, your routine, and the character of the space itself.</p>
           </article>
           <article class="value-card">
             <span class="value-index">02</span>
-            <h3>Material intelligence</h3>
-            <p>We balance texture, tone and function to create interiors that feel warm, elevated and enduring.</p>
+            <h3 data-i18n="value2.title">Material intelligence</h3>
+            <p data-i18n="value2.text">We balance texture, tone and function to create interiors that feel warm, elevated and enduring.</p>
           </article>
           <article class="value-card">
             <span class="value-index">03</span>
-            <h3>Clear execution</h3>
-            <p>From first concept to final styling, we keep the process structured, collaborative and transparent.</p>
+            <h3 data-i18n="value3.title">Clear execution</h3>
+            <p data-i18n="value3.text">From first concept to final styling, we keep the process structured, collaborative and transparent.</p>
           </article>
         </div>
       </div>
@@ -110,15 +129,15 @@
     <section class="work section" id="work">
       <div class="container">
         <div class="section-heading reveal">
-          <div><p class="eyebrow">SELECTED WORK</p><h2>Spaces we've <span>shaped.</span></h2></div>
-          <p class="section-description">A selection of concepts and interiors developed around atmosphere, functionality and timeless detail.</p>
+          <div><p class="eyebrow" data-i18n="work.eyebrow">SELECTED WORK</p><h2><span data-i18n="work.heading">Spaces we've</span> <span data-i18n="work.headingEm">shaped.</span></h2></div>
+          <p class="section-description" data-i18n="work.desc">A selection of concepts and interiors developed around atmosphere, functionality and timeless detail.</p>
         </div>
 
         <div class="project-filters reveal" role="group" aria-label="Filter projects">
-          <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All</button>
-          <button class="filter-btn" type="button" data-filter="residential" aria-pressed="false">Residential</button>
-          <button class="filter-btn" type="button" data-filter="hospitality" aria-pressed="false">Hospitality</button>
-          <button class="filter-btn" type="button" data-filter="commercial" aria-pressed="false">Commercial</button>
+          <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true" data-i18n="filters.all">All</button>
+          <button class="filter-btn" type="button" data-filter="residential" aria-pressed="false" data-i18n="filters.residential">Residential</button>
+          <button class="filter-btn" type="button" data-filter="hospitality" aria-pressed="false" data-i18n="filters.hospitality">Hospitality</button>
+          <button class="filter-btn" type="button" data-filter="commercial" aria-pressed="false" data-i18n="filters.commercial">Commercial</button>
         </div>
 
         <div class="projects-grid">
@@ -145,14 +164,14 @@
     <section class="services section-dark" id="services">
       <div class="container">
         <div class="services-header reveal">
-          <div><p class="eyebrow">WHAT WE DO</p><h2>From idea<br>to <em>atmosphere.</em></h2></div>
-          <p>A complete design approach combining creative direction, technical thinking and careful execution.</p>
+          <div><p class="eyebrow" data-i18n="services.eyebrow">WHAT WE DO</p><h2><span data-i18n="services.heading">From idea</span><br>to <em data-i18n="services.headingEm">atmosphere.</em></h2></div>
+          <p data-i18n="services.desc">A complete design approach combining creative direction, technical thinking and careful execution.</p>
         </div>
         <div class="services-list">
-          <div class="service-item reveal"><span class="service-number">01</span><div><h3>Interior Design</h3><p>Space planning, concept development, materials, furniture and complete interior direction.</p></div><span class="service-arrow">↗</span></div>
-          <div class="service-item reveal"><span class="service-number">02</span><div><h3>Interior Decoration</h3><p>Furniture, lighting, accessories, textures and finishing details that give a space its personality.</p></div><span class="service-arrow">↗</span></div>
-          <div class="service-item reveal"><span class="service-number">03</span><div><h3>3D Visualization</h3><p>Realistic visualizations that help clients understand the atmosphere before construction begins.</p></div><span class="service-arrow">↗</span></div>
-          <div class="service-item reveal"><span class="service-number">04</span><div><h3>Project Coordination</h3><p>Coordinating design decisions, suppliers and project details to keep the final result aligned with the concept.</p></div><span class="service-arrow">↗</span></div>
+          <div class="service-item reveal"><span class="service-number">01</span><div><h3 data-i18n="service1.title">Interior Design</h3><p data-i18n="service1.text">Space planning, concept development, materials, furniture and complete interior direction.</p></div><span class="service-arrow">↗</span></div>
+          <div class="service-item reveal"><span class="service-number">02</span><div><h3 data-i18n="service2.title">Interior Decoration</h3><p data-i18n="service2.text">Furniture, lighting, accessories, textures and finishing details that give a space its personality.</p></div><span class="service-arrow">↗</span></div>
+          <div class="service-item reveal"><span class="service-number">03</span><div><h3 data-i18n="service3.title">3D Visualization</h3><p data-i18n="service3.text">Realistic visualizations that help clients understand the atmosphere before construction begins.</p></div><span class="service-arrow">↗</span></div>
+          <div class="service-item reveal"><span class="service-number">04</span><div><h3 data-i18n="service4.title">Project Coordination</h3><p data-i18n="service4.text">Coordinating design decisions, suppliers and project details to keep the final result aligned with the concept.</p></div><span class="service-arrow">↗</span></div>
         </div>
       </div>
     </section>
@@ -161,22 +180,22 @@
       <div class="container studio-grid">
         <div class="studio-image reveal"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=85" alt="Elegant interior designed with natural materials" loading="lazy" decoding="async"></div>
         <div class="studio-content reveal">
-          <p class="eyebrow">THE STUDIO</p><h2>Less noise.<br><em>More feeling.</em></h2>
-          <p>We believe the most memorable interiors are not necessarily the loudest ones.</p>
-          <p>Our work focuses on proportion, natural materials, soft contrast and meaningful details — creating spaces that remain beautiful long after the first impression.</p>
-          <a href="#contact" class="text-link">Tell us about your space <span>→</span></a>
+          <p class="eyebrow" data-i18n="studio.eyebrow">THE STUDIO</p><h2><span data-i18n="studio.heading">Less noise.</span><br><em data-i18n="studio.headingEm">More feeling.</em></h2>
+          <p data-i18n="studio.text1">We believe the most memorable interiors are not necessarily the loudest ones.</p>
+          <p data-i18n="studio.text2">Our work focuses on proportion, natural materials, soft contrast and meaningful details — creating spaces that remain beautiful long after the first impression.</p>
+          <a href="#contact" class="text-link"><span data-i18n="studio.link">Tell us about your space</span> <span>→</span></a>
         </div>
       </div>
     </section>
 
     <section class="process section" id="process">
       <div class="container">
-        <div class="process-heading reveal"><p class="eyebrow">OUR PROCESS</p><h2>Simple process.<br><span>Thoughtful result.</span></h2></div>
+        <div class="process-heading reveal"><p class="eyebrow" data-i18n="process.eyebrow">OUR PROCESS</p><h2><span data-i18n="process.heading">Simple process.</span><br><span data-i18n="process.headingEm">Thoughtful result.</span></h2></div>
         <div class="process-grid">
-          <div class="process-item reveal"><span>01</span><h3>Discover</h3><p>We listen, understand the space and identify the project's priorities.</p></div>
-          <div class="process-item reveal"><span>02</span><h3>Define</h3><p>We establish the concept, mood, materials and overall design direction.</p></div>
-          <div class="process-item reveal"><span>03</span><h3>Develop</h3><p>Plans, selections and visualizations bring the concept into a clear design.</p></div>
-          <div class="process-item reveal"><span>04</span><h3>Deliver</h3><p>We coordinate the final details so the design becomes a real, finished space.</p></div>
+          <div class="process-item reveal"><span>01</span><h3 data-i18n="process1.title">Discover</h3><p data-i18n="process1.text">We listen, understand the space and identify the project's priorities.</p></div>
+          <div class="process-item reveal"><span>02</span><h3 data-i18n="process2.title">Define</h3><p data-i18n="process2.text">We establish the concept, mood, materials and overall design direction.</p></div>
+          <div class="process-item reveal"><span>03</span><h3 data-i18n="process3.title">Develop</h3><p data-i18n="process3.text">Plans, selections and visualizations bring the concept into a clear design.</p></div>
+          <div class="process-item reveal"><span>04</span><h3 data-i18n="process4.title">Deliver</h3><p data-i18n="process4.text">We coordinate the final details so the design becomes a real, finished space.</p></div>
         </div>
       </div>
     </section>
@@ -184,8 +203,8 @@
     <section class="contact section-dark" id="contact">
       <div class="container contact-grid">
         <div class="contact-head reveal">
-          <p class="eyebrow">START A PROJECT</p><h2>Have a space<br><em>in mind?</em></h2>
-          <p>Tell us a little about your project. We'll get back to you to discuss the next step.</p>
+          <p class="eyebrow" data-i18n="contact.eyebrow">START A PROJECT</p><h2><span data-i18n="contact.heading">Have a space</span><br><em data-i18n="contact.headingEm">in mind?</em></h2>
+          <p data-i18n="contact.text">Tell us a little about your project. We'll get back to you to discuss the next step.</p>
           <div class="contact-direct">
             <a href="https://wa.me/66827807095" target="_blank" rel="noopener noreferrer">WhatsApp <span>↗</span></a>
             <a href="mailto:khamjira441@gmail.com">khamjira441@gmail.com <span>↗</span></a>
@@ -194,16 +213,16 @@
 
         <form class="project-form reveal" id="projectForm">
           <div class="form-row">
-            <div class="form-field"><label for="name">Your name *</label><input id="name" name="name" required autocomplete="name"></div>
-            <div class="form-field"><label for="phone">Phone / WhatsApp *</label><input id="phone" name="phone" type="tel" required autocomplete="tel"></div>
+            <div class="form-field"><label for="name" data-i18n="contact.name">Your name *</label><input id="name" name="name" required autocomplete="name"></div>
+            <div class="form-field"><label for="phone" data-i18n="contact.phone">Phone / WhatsApp *</label><input id="phone" name="phone" type="tel" required autocomplete="tel"></div>
           </div>
           <div class="form-row">
-            <div class="form-field"><label for="projectType">Project type</label><select id="projectType" name="projectType"><option>Residential</option><option>Hospitality</option><option>Commercial</option><option>Other</option></select></div>
-            <div class="form-field"><label for="location">Location</label><input id="location" name="location" placeholder="Bangkok, Phuket..."></div>
+            <div class="form-field"><label for="projectType" data-i18n="contact.type">Project type</label><select id="projectType" name="projectType"><option data-i18n="project.typeResidential">Residential</option><option data-i18n="project.typeHospitality">Hospitality</option><option data-i18n="project.typeCommercial">Commercial</option><option data-i18n="project.typeOther">Other</option></select></div>
+            <div class="form-field"><label for="location" data-i18n="contact.location">Location</label><input id="location" name="location" data-i18n-placeholder="contact.locationPlaceholder" placeholder="Bangkok / Phuket / London / Dubai / Paris / China"></div>
           </div>
-          <div class="form-field"><label for="details">Tell us about your project</label><textarea id="details" name="details" rows="5" placeholder="Space size, style, timeline, budget or anything else..."></textarea></div>
-      <button type="submit" class="submit-button">Send project enquiry <span>↗</span></button>
-<p class="form-note">Your enquiry will be sent securely to our team.</p>
+          <div class="form-field"><label for="details" data-i18n="contact.details">Tell us about your project</label><textarea id="details" name="details" rows="5" data-i18n-placeholder="contact.detailsPlaceholder" placeholder="Space size, style, timeline, budget or anything else..."></textarea></div>
+      <button type="submit" class="submit-button"><span data-i18n="contact.submit">Send project enquiry</span> <span>↗</span></button>
+<p class="form-note" data-i18n="contact.note">Your enquiry will be sent securely to our team.</p>
           <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -212,11 +231,27 @@
   
   <footer class="footer">
     <div class="container footer-top">
-      <div class="footer-brand"><a href="#home" class="logo"><span>LIU HARMONY</span><small>DESIGN STUDIO</small></a><p>Interior design and decoration with quiet character.</p></div>
-      <div class="footer-links"><a href="#work">Work</a><a href="#services">Services</a><a href="#studio">Studio</a><a href="#contact">Contact</a></div>
-      <div class="footer-social"><a href="#contact">Instagram ↗</a><a href="#contact">Facebook ↗</a></div>
+      <div class="footer-brand">
+        <a href="#home" class="logo" aria-label="Liu Harmony Design home">
+          <span class="logo-crest" aria-hidden="true">
+            <span class="logo-arch"></span>
+            <span class="logo-arch logo-arch-inner"></span>
+            <span class="logo-leaf"></span>
+          </span>
+          <span class="logo-text">
+            <span class="logo-wordmark">Liu</span>
+            <small>INTERIORS</small>
+          </span>
+        </a>
+        <p data-i18n="footer.tagline">Interior design and decoration with quiet character.</p>
+      </div>
+      <div class="footer-links"><a href="#work" data-i18n="nav.work">Work</a><a href="#services" data-i18n="nav.services">Services</a><a href="#studio" data-i18n="nav.studio">Studio</a><a href="#contact" data-i18n="footer.contact">Contact</a></div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/liu_for_victory?stkn=MXR6MjNtZG03eHJuZg==" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        <a href="https://www.tiktok.com/@liu.888?_r=1&_t=ZS-99tLQLFuN4m" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+      </div>
     </div>
-    <div class="container footer-bottom"><span>© <span id="year"></span> Liu Harmony Design</span><span>Bangkok · Thailand</span></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Liu Harmony Design</span><span data-i18n="footer.location">Bangkok · Phuket</span></div>
   </footer>
 
   <script src="liu.js" defer></script>
