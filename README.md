@@ -1,6 +1,6 @@
-# LIU HARMONY DESIGN — V2
+# PROFFISIO — V2
 
-Professional static website prepared for hosting.
+Static marketing website deployed to GitHub Pages. The contact form opens the visitor's email app and does not require a backend or database.
 
 ## Files
 - `index.html` — main website
@@ -9,19 +9,32 @@ Professional static website prepared for hosting.
 - `robots.txt` — crawler rules
 - `sitemap.xml` — SEO sitemap
 
+## Deployment
+
+The GitHub Actions workflow deploys the static site to GitHub Pages whenever changes are pushed to `main`. In the repository settings, enable GitHub Pages with **GitHub Actions** as the build and deployment source.
+
+The custom domain is configured as `liuharmonydesign.com` in `CNAME`. Set the domain's DNS records to GitHub Pages as described in [GitHub's custom-domain documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site), then enable HTTPS in the Pages settings. The canonical URL, sitemap and robots file already use this domain.
+
+## Contact form
+
+The form creates an email addressed to `khamjira441@gmail.com` with the enquiry details. The visitor must have an email app configured and press Send. No backend or database is needed.
+
+## Google Search
+
+After the site is live over HTTPS:
+1. Add and verify `liuharmonydesign.com` in [Google Search Console](https://search.google.com/search-console).
+2. Submit `https://liuharmonydesign.com/sitemap.xml` in Search Console.
+3. Use URL Inspection to request indexing of `https://liuharmonydesign.com/`.
+
+Indexing and ranking are controlled by Google and are not immediate or guaranteed.
+
 ## Before going live
-1. Upload all files to the hosting public folder (`public_html`, `htdocs`, or equivalent).
-2. Make sure `index.html` is in the root.
-3. Activate HTTPS/SSL.
-4. Confirm that `https://liuharmonydesign.com/` points to the hosting.
-5. Replace the Instagram/Facebook placeholder footer links with the real profiles.
-6. Replace the Unsplash image URLs with optimized owned images when available.
+
+- Confirm the custom domain belongs to the business and its DNS points to GitHub Pages.
+- Replace the Unsplash sample images with project images that you own or are licensed to use.
+- Confirm business name, contact details, service areas and social profile links are correct.
 
 ## Contact
 WhatsApp: +66 82 780 7095
 Email: khamjira441@gmail.com
 Location: Bangkok, Thailand
-
-## Backend
-The enquiry form sends submissions to `backend/server.js` at `/api/contacts`.
-Run the backend with `npm install` and `npm start` inside the `backend` folder. Set `PORT`, `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`, and `DB_PORT` in production when using MySQL.

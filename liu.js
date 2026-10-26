@@ -29,7 +29,7 @@
       "intro.eyebrow": "OUR APPROACH",
       "intro.heading": "Design that feels",
       "intro.headingEm": "considered.",
-      "intro.text1": "Liu Harmony Design creates refined environments where architecture, furniture, lighting and materials work together naturally.",
+      "intro.text1": "Proffisio creates refined environments where architecture, furniture, lighting and materials work together naturally.",
       "intro.text2": "From private residences to hospitality and commercial spaces, every project is developed around its own identity rather than a predefined style.",
       "values.eyebrow": "WHY CLIENTS CHOOSE US",
       "values.heading": "Design with",
@@ -90,12 +90,11 @@
       "contact.details": "Tell us about your project",
       "contact.detailsPlaceholder": "Space size, style, timeline, budget or anything else...",
       "contact.submit": "Send project enquiry",
-      "contact.note": "Your enquiry will be sent securely to our team.",
-      "form.sending": "Sending your message...",
-      "form.success": "Message sent successfully! ✓",
-      "form.error": "Unable to send message. Please try again.",
+      "contact.note": "Your email app will open with your enquiry ready to send.",
+      "form.emailOpened": "Your email app should open with the enquiry. Send the email there to contact us.",
       "footer.tagline": "Interior design and decoration with quiet character.",
       "footer.contact": "Contact",
+      "footer.call": "Call us",
       "footer.location": "Bangkok · Phuket · London · Dubai · Paris · China",
       "project.typeResidential": "Residential",
       "project.typeHospitality": "Hospitality",
@@ -126,7 +125,7 @@
       "intro.eyebrow": "แนวทางของเรา",
       "intro.heading": "การออกแบบที่รู้สึก",
       "intro.headingEm": "มีความคิด.",
-      "intro.text1": "Liu Harmony Design สร้างสภาพแวดล้อมที่ประณีตซึ่งสถาปัตยกรรม เฟอร์นิเจอร์ แสง และวัสดุทำงานร่วมกันอย่างเป็นธรรมชาติ",
+      "intro.text1": "Proffisio สร้างสภาพแวดล้อมที่ประณีตซึ่งสถาปัตยกรรม เฟอร์นิเจอร์ แสง และวัสดุทำงานร่วมกันอย่างเป็นธรรมชาติ",
       "intro.text2": "ตั้งแต่บ้านพักส่วนตัวไปจนถึงพื้นที่โรงแรมและเชิงพาณิชย์ ทุกโครงการถูกพัฒนาตามเอกลักษณ์เฉพาะของพื้นที่แทนการยึดตามสไตล์ที่กำหนดไว้ล่วงหน้า",
       "values.eyebrow": "ทำไมลูกค้าถึงเลือกเรา",
       "values.heading": "ออกแบบด้วย",
@@ -187,12 +186,11 @@
       "contact.details": "เล่าเกี่ยวกับโครงการของคุณ",
       "contact.detailsPlaceholder": "ขนาดพื้นที่ สไตล์ กำหนดเวลา งบประมาณ หรือรายละเอียดอื่น ๆ ...",
       "contact.submit": "ส่งคำขอโครงการ",
-      "contact.note": "ข้อมูลของคุณจะถูกส่งไปยังทีมงานอย่างปลอดภัย",
-      "form.sending": "กำลังส่งข้อความ...",
-      "form.success": "ส่งข้อความสำเร็จ! ✓",
-      "form.error": "ไม่สามารถส่งข้อความได้ กรุณาลองอีกครั้ง",
+      "contact.note": "แอปอีเมลจะเปิดขึ้นพร้อมรายละเอียดคำถามของคุณเพื่อให้ส่งได้",
+      "form.emailOpened": "แอปอีเมลควรเปิดขึ้นพร้อมข้อความของคุณ กรุณากดส่งในแอปเพื่อติดต่อเรา",
       "footer.tagline": "การออกแบบภายในและการตกแต่งที่มีบุคลิกเงียบสงบ",
       "footer.contact": "ติดต่อ",
+      "footer.call": "โทรหาเรา",
       "footer.location": "กรุงเทพฯ · ภูเก็ต",
       "project.typeResidential": "ที่พักอาศัย",
       "project.typeHospitality": "บริการ",
@@ -223,7 +221,7 @@
       "intro.eyebrow": "نهجنا",
       "intro.heading": "تصميم يشعر بـ",
       "intro.headingEm": "التأمل.",
-      "intro.text1": "تخلق Liu Harmony Design بيئات دقيقة تعمل فيها الهندسة والأثاث والإضاءة والمواد معًا بشكل طبيعي.",
+      "intro.text1": "تخلق Proffisio بيئات دقيقة تعمل فيها الهندسة والأثاث والإضاءة والمواد معًا بشكل طبيعي.",
       "intro.text2": "من المنازل الخاصة إلى الفنادق والمناطق التجارية، يتم تطوير كل مشروع حول هويته الخاصة وليس بأسلوب محدد مسبقًا.",
       "values.eyebrow": "لماذا يختار العملاءنا",
       "values.heading": "تصميم مع",
@@ -284,12 +282,11 @@
       "contact.details": "أخبرنا عن مشروعك",
       "contact.detailsPlaceholder": "حجم المساحة، الأسلوب، الجدول الزمني، الميزانية أو أي شيء آخر...",
       "contact.submit": "إرسال طلب المشروع",
-      "contact.note": "سيتم إرسال استفسارك بأمان إلى فريقنا.",
-      "form.sending": "جارٍ إرسال رسالتك...",
-      "form.success": "تم إرسال الرسالة بنجاح! ✓",
-      "form.error": "تعذر إرسال الرسالة. يرجى المحاولة مرة أخرى.",
+      "contact.note": "سيفتح تطبيق البريد الإلكتروني مع تفاصيل استفسارك جاهزة للإرسال.",
+      "form.emailOpened": "من المفترض أن يفتح تطبيق البريد برسالتك. اضغط إرسال هناك للتواصل معنا.",
       "footer.tagline": "تصميم داخلي وديكور بطابع هادئ.",
       "footer.contact": "التواصل",
+      "footer.call": "اتصل بنا",
       "footer.location": "بانكوك · بوكيت",
       "project.typeResidential": "سكني",
       "project.typeHospitality": "ضيافة",
@@ -320,7 +317,7 @@
       "intro.eyebrow": "我们的理念",
       "intro.heading": "让设计感受到",
       "intro.headingEm": "用心。",
-      "intro.text1": "Liu Harmony Design 创造精致的空间，让建筑、家具、照明和材料自然地协同工作。",
+      "intro.text1": "Proffisio 创造精致的空间，让建筑、家具、照明和材料自然地协同工作。",
       "intro.text2": "从私人住宅到酒店及商业空间，每个项目都围绕其独特身份展开，而不是依赖既定风格。",
       "values.eyebrow": "为什么客户选择我们",
       "values.heading": "以",
@@ -381,12 +378,11 @@
       "contact.details": "告诉我们你的项目",
       "contact.detailsPlaceholder": "空间面积、风格、时间表、预算或其他信息...",
       "contact.submit": "发送项目咨询",
-      "contact.note": "你的咨询将被安全发送给我们的团队。",
-      "form.sending": "正在发送您的消息...",
-      "form.success": "消息发送成功！✓",
-      "form.error": "无法发送消息，请重试。",
+      "contact.note": "电子邮件应用将打开，并附上准备发送的咨询内容。",
+      "form.emailOpened": "电子邮件应用应该会打开并显示咨询内容。请在应用中点击发送以联系我们。",
       "footer.tagline": "带有安静气质的室内设计与装饰。",
       "footer.contact": "联系",
+      "footer.call": "致电我们",
       "footer.location": "曼谷 · 普吉岛",
       "project.typeResidential": "住宅",
       "project.typeHospitality": "酒店",
@@ -404,10 +400,6 @@
   const defaultLanguage = "en";
 
   const getTranslation = (lang, key) => translations[lang]?.[key] || translations[defaultLanguage][key] || key;
-  const contactEndpoint = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
-    ? "http://localhost:3000/api/contacts"
-    : "/api/contacts";
-
   const applyTheme = (theme) => {
     const resolvedTheme = theme === "dark" ? "dark" : "light";
     document.body.classList.toggle("theme-dark", resolvedTheme === "dark");
@@ -568,7 +560,7 @@
   }
 
   // Contact form
-  form?.addEventListener("submit", async event => {
+  form?.addEventListener("submit", event => {
     event.preventDefault();
 
     if (!form.checkValidity()) {
@@ -584,43 +576,22 @@
     const location = String(data.get("location") || "").trim();
     const message = String(data.get("details") || "").trim();
 
+    const subject = `Project enquiry from ${name}`;
+    const body = [
+      `Name: ${name}`,
+      `Phone / WhatsApp: ${phone}`,
+      `Project type: ${projectType}`,
+      `Location: ${location}`,
+      "",
+      "Project details:",
+      message
+    ].join("\n");
+    const mailto = `mailto:khamjira441@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
     if (status) {
-      status.textContent = getTranslation(document.documentElement.lang || defaultLanguage, "form.sending");
+      status.textContent = getTranslation(document.documentElement.lang || defaultLanguage, "form.emailOpened");
     }
 
-    try {
-      const response = await fetch(contactEndpoint, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          name: name,
-          phone: phone,
-          projectType: projectType,
-          location: location,
-          message: message
-        })
-      });
-
-      const result = await response.json();
-
-      if (!response.ok) {
-        throw new Error(result.message || "Something went wrong.");
-      }
-
-      if (status) {
-        status.textContent = getTranslation(document.documentElement.lang || defaultLanguage, "form.success");
-      }
-
-      form.reset();
-
-    } catch (error) {
-      console.error(error);
-
-      if (status) {
-        status.textContent = getTranslation(document.documentElement.lang || defaultLanguage, "form.error");
-      }
-    }
+    window.location.href = mailto;
   });
 })();

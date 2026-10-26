@@ -27,10 +27,16 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare static website
+        run: |
+          mkdir -p _site
+          cp index.html liu.css liu.js robots.txt sitemap.xml CNAME _site/
+          touch _site/.nojekyll
+
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - name: Deploy
         id: deployment
