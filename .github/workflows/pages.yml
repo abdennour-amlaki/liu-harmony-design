@@ -30,7 +30,7 @@ jobs:
       - name: Prepare static website
         run: |
           mkdir -p _site
-          cp index.html liu.css liu.js robots.txt sitemap.xml CNAME _site/
+          cp index.html liu.css liu.js robots.txt sitemap.xml _site/
           touch _site/.nojekyll
 
       - name: Upload website

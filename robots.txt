@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://liuharmonydesign.com/sitemap.xml
+Sitemap: https://abdennour-amlaki.github.io/liu-harmony-design/sitemap.xml
